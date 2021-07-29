@@ -1,0 +1,53 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.honda-bg-color {
+    background-color: #264653;
+    height: 100vh;
+}
+
+.honda-btn-color {
+    background: #E76F51;
+
+}
+
+.bike-span-color {
+    color: #E76F51;
+    display: inline-block;
+
+
+}
+
+.bike-span-color::after {
+    content: '';
+    margin: auto;
+    width: 50%;
+    display: block;
+    border-bottom: 1px solid #E76F51;
+}
+
+.bike-img-gray {
+    filter: grayscale(100%);
+}
+
+.fa-star,
+.client-heading {
+    color: #E76F51;
+}
+
+.bike-name-color {
+    color: #23A6F0;
+}
+
+.clients-col-3 {
+    width: 35%;
+}
+
+.faq-img {
+    /* width: 40%; */
+}
+
+.faq-accordion {
+    width: 50%;
+}
